@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expression Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Convert Infix Expression</h2>
+    <h2>CEDRIC & ALYSSA </h2>
+    <h2>BSIT - 1A</h2>
+    <h2>DATA STRUCTURE AND ALGORITHM</h2>
+    <h2>INSTRUCTOR: MANILYN </h2>
+
+    <form action="process.php" method="POST">
+        <label for="expression">Input Expression:</label><br>
+        <input type="text" name="expression" required><br><br>
+
+        <label for="conversion">Select Conversion:</label><br>
+        <select name="conversion">
+            <option value="postfix">Infix to Postfix</option>
+            <option value="prefix">Infix to Prefix</option>
+            <option value="postfixToInfix">Postfix to Infix</option>
+            <option value="prefixToInfix">Prefix to Infix</option>
+        </select><br><br>
+        <form action="process.php" method="POST">
+
+        <input type="submit" name="submit" value="Convert">
+    </form>
+    <style>
+body {
+  background-image: url('bckround.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</body>
+</html>
